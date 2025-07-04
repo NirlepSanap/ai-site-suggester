@@ -1,9 +1,0 @@
-### Test the suggestion endpoint
-POST http://127.0.0.1:8000/suggest
-Content-Type: application/json
-
-{
-  "business_name": "Green Bloom Nursery",
-  "category": "Plant Nursery",
-  "description": "We sell indoor and outdoor plants, gardening tools, and provide plant care tips."
-}
