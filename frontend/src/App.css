@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f8ff;
+  color: #1e1e2f;
+}
+
+.main-wrapper {
+  padding: 30px 20px;
+}
+
+.app-container {
+  max-width: 800px;
+  background: white;
+  margin: auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #2e3a59;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #7a8599;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+  border: 5px solid #ddd;
+  border-top: 5px solid #4f6bed;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
